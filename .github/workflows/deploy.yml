@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Install d3 and three
+        run: bun add d3 three
+
       - name: Build project
         run: bun run build
 
